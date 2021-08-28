@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    background: #f9f9f9;
+}
+
+.arnly-main-top {
+	background: #fff;
+	color: #0e0e0e;
+	align-items: center;
+	justify-content: center;
+	font-weight:  bold;
+}
+
+.arnly-main-left {
+	background: #eee;
+	color: #666;
+	align-items: center;
+	justify-content: center;
+}
+
+.arnly-main-right {
+	background: #ccc;
+	color: #666;
+	align-items: center;
+	justify-content: center;
+}
+
+.arnly-main-left:hover {
+	color: #000;
+	background: #fff;
+	cursor: pointer;
+}
+
+.arnly-main-right:hover {
+	color: #fff;
+	background: #000;
+	cursor: pointer;
+}
