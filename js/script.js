@@ -209,7 +209,10 @@ Arnly.Edison.TwoSideAjax = function (params = {})
             if (data.output.ACCURACY)
                 $('.arnly-log-wrapper').html(data.output.ACCURACY);
 
-            setTimeout(() => $('.arnly-log-wrapper').html(''), 500);
+            if ($('.arnly-log-wrapper').html() !== 'Ждём число...')
+            {
+                 setTimeout(() => $('.arnly-log-wrapper').html(''), 500);
+            }
         }
         else
         {
